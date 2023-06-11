@@ -401,6 +401,11 @@ width: calc((100% - 48px) / 3);
             transition: background-color var(--transition);
     }
 
+    .team-soc-link:hover,
+    .team-soc-link:focus{
+        background-color: #404BBF;
+    }
+
 /*!-------------------------*/
 
 .pf-list-text {
@@ -514,6 +519,11 @@ width: calc((100% - 48px) / 3);
     height: 100%;
     width: 100%;
     transition: background-color var(--transition);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+    background-color: #31d0aa;
 }
 
 
