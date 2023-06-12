@@ -343,8 +343,8 @@ width: calc((100% - 48px) / 3);
     transition: transform var(--transition);
 }
 
-.pfl-icon:hover .icon-text,
-.pfl-icon:focus .icon-text {
+.pfl-link:hover .icon-text,
+.pfl-link:focus .icon-text {
     transform: translateY(0);
 }
 
