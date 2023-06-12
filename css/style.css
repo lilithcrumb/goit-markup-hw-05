@@ -249,8 +249,12 @@ max-width: 496px;
             0px 2px 2px rgba(0, 0, 0, 0.12);
         border: 1px solid var(--pf-button-color);
         border-radius: 4px;
-        transition: color var(--transition);
+        transition: border-color var(--transition),
+            color var(--transition),
+            background-color var(--transition),
+            box-shadow var(--transition);
 }
+
 
 .prtfl-btn:hover, .prtfl-btn:focus {
     background: #404BBF;
