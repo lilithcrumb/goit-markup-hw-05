@@ -586,7 +586,7 @@ gap: 24px;
     border-radius: 4px;
     background-color: transparent;
     color: #ffffff;
-    font-style: 12px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
@@ -620,6 +620,7 @@ gap: 24px;
     border: none;
     min-width: 165px;
     height: 40px;
+    cursor: pointer;
 }
 
 .footer-sub-pic{
@@ -852,17 +853,22 @@ gap: 24px;
     align-items: center;
 }
 
+.check-text span {
+display: inline-flex;
+transition: background-color var(--transition);
+}
+
 .span-icon{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
-    display: inline-flex;
+    
     align-items: center;
     justify-content: center;
     fill: transparent;
-    transition: background-color var(--transition);
+    
 }
 
 .input-check:checked + .check-text span{
