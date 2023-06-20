@@ -784,6 +784,10 @@ gap: 24px;
     margin-bottom: 8px;
 }
 
+.modal-textarea {
+    margin-bottom: 16px;
+}
+
 .modal-label {
     font-weight: 400;
     font-size: 12px;
