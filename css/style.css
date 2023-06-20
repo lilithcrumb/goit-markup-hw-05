@@ -784,6 +784,10 @@ gap: 24px;
     margin-bottom: 8px;
 }
 
+.checkbox-field {
+    margin-bottom: 24px;
+}
+
 .modal-textarea {
     margin-bottom: 16px;
 }
